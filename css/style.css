@@ -7,6 +7,30 @@
   --team-background: #f5f4fa;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
@@ -22,7 +46,20 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  margin: 0 auto;
+}
+
 /* -----header -----*/
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .nav-logo {
   font-family: 'Raleway', sans-serif;
@@ -76,6 +113,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -90,6 +128,7 @@ body {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-bottom: 200px;
 }
 
 /* -----principies----- */
