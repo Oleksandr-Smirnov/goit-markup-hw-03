@@ -54,6 +54,12 @@ body {
   margin: 0 auto;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* -----header -----*/
 
 .nav {
@@ -119,7 +125,7 @@ body {
 
 /* -----hero----- */
 
-.section-hero {
+.hero.section {
   background: var(--second-background);
   text-align: center;
   padding-top: 200px;
@@ -134,6 +140,9 @@ body {
   text-transform: uppercase;
   color: var(--main-title-color);
   margin-bottom: 30px;
+  width: 693px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn {
@@ -148,11 +157,12 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 32px;
+  border: none;
 }
 
 /* -----principies----- */
 
-.section-principies {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -194,8 +204,8 @@ body {
 
 /* -----our work----- */
 
-.section-work {
-  padding-bottom: 94px;
+.work {
+  padding-top: 0;
 }
 
 .section-title {
@@ -213,11 +223,6 @@ body {
 
 /* -----team----- */
 
-.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .team-list {
   display: flex;
   gap: 30px;
@@ -230,10 +235,8 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.section-team {
+.team {
   background: var(--team-background);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-name {
@@ -304,11 +307,6 @@ body {
 }
 
 /* -----portfolio-filter----- */
-
-.section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .filter-btn:hover,
 .filter-btn:focus {
